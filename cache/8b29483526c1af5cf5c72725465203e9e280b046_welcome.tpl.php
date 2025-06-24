@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 5.5.1, created on 2025-06-24 15:03:59
+/* Smarty version 5.5.1, created on 2025-06-24 15:16:55
   from 'file:templates/user/welcome.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCached()->isFresh($_smarty_tpl, array (
   'version' => '5.5.1',
-  'unifunc' => 'content_685aa23f4e1ec5_58534469',
+  'unifunc' => 'content_685aa5472783f7_65445148',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,7 +18,7 @@ if ($_smarty_tpl->getCached()->isFresh($_smarty_tpl, array (
   ),
   'cache_lifetime' => 120,
 ))) {
-function content_685aa23f4e1ec5_58534469 (\Smarty\Template $_smarty_tpl) {
+function content_685aa5472783f7_65445148 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = '/Applications/XAMPP/xamppfiles/htdocs/itctoi/templates/user';
 ?><!DOCTYPE html>
 <html lang="vi">

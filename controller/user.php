@@ -7,6 +7,20 @@ if( $v == 'login' ) {
 } elseif( $v == 'xu_ly_dang_nhap' ) {
     // Handle login logic here
 
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+    /**
+     * Bước 1: Lấy thông tin đăng nhập từ form: username và password
+     * Bước 2: Kiểm tra username có trong database hay không
+     * Bước 3: Nếu có, kiểm tra password có đúng không
+     * Bước 4: Nếu đúng, lưu thông tin đăng nhập vào session và cookie
+     * Bước 5: Chuyển hướng người dùng đến trang chính hoặc trang chào mừng
+     * Bước 6: Nếu không đúng, hiển thị thông báo lỗi đăng nhập
+     * Bước 7: Nếu không có username trong database, hiển thị thông báo lỗi đăng nhập
+     * Bước 8: Nếu người dùng đã đăng nhập, hiển thị thông báo đã đăng nhập
+     */
+
     $_SESSION['username'] = $_POST['username'];
     $_SESSION['password'] = $_POST['password'];
 
