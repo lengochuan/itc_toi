@@ -19,7 +19,13 @@ if( $v == 'login' ) {
      * Bước 6: Nếu không đúng, hiển thị thông báo lỗi đăng nhập
      * Bước 7: Nếu không có username trong database, hiển thị thông báo lỗi đăng nhập
      * Bước 8: Nếu người dùng đã đăng nhập, hiển thị thông báo đã đăng nhập
-     */
+     */ 
+
+
+
+
+
+
 
     $_SESSION['username'] = $_POST['username'];
     $_SESSION['password'] = $_POST['password'];
