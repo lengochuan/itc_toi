@@ -64,7 +64,7 @@
 <body>
     <div class="welcome-container">
         <h1>Đăng nhập thành công!</h1>
-        <p>Chào mừng bạn trở lại, <strong>{$username}</strong>!</p>
+        <p>Chào mừng bạn trở lại, <strong>{$email}</strong>!</p>
         <p>Bạn đã đăng nhập vào hệ thống thành công. Bây giờ bạn có thể truy cập các tính năng dành riêng cho thành viên.</p>
         <a href="/?c=user&v=logout" class="logout-button">Đăng xuất</a>
     </div>

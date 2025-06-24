@@ -13,5 +13,14 @@ class users extends Model
     protected $created_at;
     protected $updated_at;
     protected $role;
-   
+
+    public function user($email ){
+        global $db;
+        
+        $sql = "SELECT email,password FROM `users` WHERE email = '$email'; ";
+        
+        $result = $db->executeQuery_list( $sql );
+    
+        return $result;
+    }
 }

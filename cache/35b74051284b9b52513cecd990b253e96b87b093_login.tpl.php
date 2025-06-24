@@ -1,24 +1,24 @@
 <?php
-/* Smarty version 5.5.1, created on 2025-06-24 15:33:22
+/* Smarty version 5.5.1, created on 2025-06-24 16:16:32
   from 'file:templates/user/login.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCached()->isFresh($_smarty_tpl, array (
   'version' => '5.5.1',
-  'unifunc' => 'content_685aa9225652b3_19062313',
+  'unifunc' => 'content_685ab340584033_66907864',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '35b74051284b9b52513cecd990b253e96b87b093' => 
     array (
       0 => 'templates/user/login.tpl',
-      1 => 1750168432,
+      1 => 1750774441,
       2 => 'file',
     ),
   ),
   'cache_lifetime' => 120,
 ))) {
-function content_685aa9225652b3_19062313 (\Smarty\Template $_smarty_tpl) {
+function content_685ab340584033_66907864 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = '/Applications/XAMPP/xamppfiles/htdocs/itctoi/templates/user';
 ?><!DOCTYPE html>
 <html lang="vi">
@@ -115,8 +115,8 @@ $_smarty_current_dir = '/Applications/XAMPP/xamppfiles/htdocs/itctoi/templates/u
         <h2>Đăng Nhập</h2>
         <form action="/?c=user&v=xu_ly_dang_nhap" method="POST">
             <div class="form-group">
-                <label for="username">Tên đăng nhập:</label>
-                <input type="text" id="username" name="username" required>
+                <label for="email">Email đăng nhập:</label>
+                <input type="text" id="email" name="email" required>
             </div>
             <div class="form-group">
                 <label for="password">Mật khẩu:</label>

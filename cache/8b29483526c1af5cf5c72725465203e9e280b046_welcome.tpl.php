@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 5.5.1, created on 2025-06-24 15:33:20
+/* Smarty version 5.5.1, created on 2025-06-24 16:11:11
   from 'file:templates/user/welcome.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCached()->isFresh($_smarty_tpl, array (
   'version' => '5.5.1',
-  'unifunc' => 'content_685aa92005d929_65351866',
+  'unifunc' => 'content_685ab1ff630bf3_89431904',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,7 +18,7 @@ if ($_smarty_tpl->getCached()->isFresh($_smarty_tpl, array (
   ),
   'cache_lifetime' => 120,
 ))) {
-function content_685aa92005d929_65351866 (\Smarty\Template $_smarty_tpl) {
+function content_685ab1ff630bf3_89431904 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = '/Applications/XAMPP/xamppfiles/htdocs/itctoi/templates/user';
 ?><!DOCTYPE html>
 <html lang="vi">
@@ -86,7 +86,7 @@ $_smarty_current_dir = '/Applications/XAMPP/xamppfiles/htdocs/itctoi/templates/u
 <body>
     <div class="welcome-container">
         <h1>Đăng nhập thành công!</h1>
-        <p>Chào mừng bạn trở lại, <strong>huanln</strong>!</p>
+        <p>Chào mừng bạn trở lại, <strong>linh@gmail.com</strong>!</p>
         <p>Bạn đã đăng nhập vào hệ thống thành công. Bây giờ bạn có thể truy cập các tính năng dành riêng cho thành viên.</p>
         <a href="/?c=user&v=logout" class="logout-button">Đăng xuất</a>
     </div>

@@ -93,8 +93,8 @@
         <h2>Đăng Nhập</h2>
         <form action="/?c=user&v=xu_ly_dang_nhap" method="POST">
             <div class="form-group">
-                <label for="username">Tên đăng nhập:</label>
-                <input type="text" id="username" name="username" required>
+                <label for="email">Email đăng nhập:</label>
+                <input type="text" id="email" name="email" required>
             </div>
             <div class="form-group">
                 <label for="password">Mật khẩu:</label>
